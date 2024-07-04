@@ -2,7 +2,6 @@ from airflow import DAG
 import datetime
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
-# from airflow.models import Variable
 
 
 def test():
